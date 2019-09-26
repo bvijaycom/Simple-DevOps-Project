@@ -22,6 +22,8 @@
 1. add a user to docker group to manage docker 
    ```
    usermod -aG docker dockeradmin
+   
+   docker pull tomcat:latest
    ```
 ### Validation test
 1. Create a tomcat docker container by pulling a docker image from the public docker registry
